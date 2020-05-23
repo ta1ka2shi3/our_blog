@@ -1,7 +1,10 @@
-$(function () {
-    $('.anime').slick({
-      dots: true,
-      autoplay: true,
-      autoplaySpeed: 2000,
+document.addEventListener("turbolinks:load"
+, function () {
+    $(function () {
+      $('.anime').slick({
+        dots: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+      });
     });
-});
+  })

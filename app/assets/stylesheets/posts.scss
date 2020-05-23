@@ -1,3 +1,9 @@
+@media screen and (-webkit-min-device-pixel-ratio:0){
+  body {
+      background-color: #ccc;
+  }
+}
+
 html, body{
   background-color: #f6f6f6;
   min-width: 650px;
@@ -17,6 +23,7 @@ html, body{
     &__title{
       font-size: 30px;
       line-height: 56px;
+      width: 400px;
       &--text{
         text-decoration: none;
         color: #fff;
@@ -28,6 +35,7 @@ html, body{
         line-height: 56px;
         color: #fff;
         margin-left:15px;
+
       }
     }
   }
@@ -38,7 +46,7 @@ html, body{
       height: 150px;
       max-height: 200px;
       width: 100%;
-      img {
+      img #gazou {
         height: 400px;
       }
     }
